@@ -46,7 +46,7 @@ export function HomeForm() {
         onChange={(event) => setWord(event.target.value)}
         placeholder="Type a word"
         aria-describedby="word-helper"
-        className="flex-1 bg-transparent disabled:opacity-80 px-2 py-2 focus-visible:ring-0 text-lg"
+        className="flex-1 disabled:opacity-80 px-2 py-2 focus-visible:ring-2 text-lg"
         disabled={isPlaying}
       />
       <Button
