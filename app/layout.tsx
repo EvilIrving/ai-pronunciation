@@ -12,11 +12,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-const vercelUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : undefined;
-const appUrl = process.env.NEXT_PUBLIC_SITE_URL ?? vercelUrl;
+ 
+const appUrl = process.env.NEXT_PUBLIC_SITE_URL;
 const metadataBase = appUrl ? new URL(appUrl) : undefined;
 const siteName = "Words";
 
