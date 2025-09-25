@@ -69,17 +69,6 @@ export const metadata: Metadata = {
       "Hear how any English word should sound with instantly generated Google Cloud Text-to-Speech audio.",
     images: ["/opengraph-image.png"],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      maxSnippet: -1,
-      maxImagePreview: "large",
-      maxVideoPreview: -1,
-    },
-  },
   manifest: "/site.webmanifest",
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
